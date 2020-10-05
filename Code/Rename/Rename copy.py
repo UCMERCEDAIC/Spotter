@@ -1,6 +1,7 @@
 #Nhan file rename script
 import os
 
+#Change it to the folder with in spotter
 file_location = "pushups"
 
 number_file_jpg = 0
