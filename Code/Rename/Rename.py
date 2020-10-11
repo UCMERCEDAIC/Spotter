@@ -13,7 +13,7 @@ for file in os.listdir("/Spotter/" + file_location):
     if x[len(x)-1] == "jpg":
         number_file_jpg = number_file_jpg + 1
         if number_file_jpg <= 9:
-            number_file_jpg_1 = "000" + str(number_file_jpg)
+            number_file_jpg_1 = "Correct"+"000" + str(number_file_jpg)
         elif number_file_jpg <= 99:
             number_file_jpg_1 = "00" + str(number_file_jpg)
         elif number_file_jpg <= 999:
