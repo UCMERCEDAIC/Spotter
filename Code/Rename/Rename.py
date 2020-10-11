@@ -2,7 +2,7 @@
 import os
 
 #Change it to the folder with in spotter
-file_location = "pushups"
+file_location = "Images"
 
 number_file_jpg = 0
 number_file_png = 0
