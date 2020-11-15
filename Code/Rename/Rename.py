@@ -13,7 +13,9 @@ for file in os.listdir(file_location):
     if x[len(x)-1] == "jpg":
         number_file_jpg = number_file_jpg + 1
         if number_file_jpg <= 9:
+
             number_file_jpg_1 = "Correct_000" + str(number_file_jpg)
+
         elif number_file_jpg <= 99:
             number_file_jpg_1 = "Correct_00" + str(number_file_jpg)
         elif number_file_jpg <= 999:
