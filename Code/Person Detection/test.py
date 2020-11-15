@@ -1,6 +1,6 @@
 import cv2
 
-img=cv2.imread(r"C:\Users\nedwa\Documents\GitHub\Spotter\0001.jpg")
+img=cv2.imread(r"Images\Corrcet_0010.jpg")
 cv2.imshow("Output",img)
 cv2.waitKey(2000)
 classNames=[]
@@ -17,6 +17,6 @@ net.setInputScale(1.0/ 127.5)
 net.setInputMean((127.5, 127.5, 127.5))
 net.setInputSwapRB(True)
 
-classIds,confs,bbox=net.detect(img,confThreshold=.3)
+classIds,confs,bbox=net.detect(img,confThreshold=.7)
 print(classIds)
 print(bbox)
