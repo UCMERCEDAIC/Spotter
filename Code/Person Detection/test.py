@@ -22,6 +22,7 @@ net.setInputMean((127.5, 127.5, 127.5))
 net.setInputSwapRB(True)
 
 classIds,confs,bbox=net.detect(img,confThreshold=.70)
+
 print(classIds)
 print(bbox)
 counter=0
