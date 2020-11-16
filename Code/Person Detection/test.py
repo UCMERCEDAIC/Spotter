@@ -49,3 +49,4 @@ for x in classIds:
 
     
     counter=counter+1
+    num = 0
